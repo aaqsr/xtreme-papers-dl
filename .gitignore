@@ -1,0 +1,4 @@
+
+*.pdf
+.venv/lib/python3.7/site-packages/setuptools/ssl_support.py
+.venv/bin/activate
