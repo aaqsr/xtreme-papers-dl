@@ -12,6 +12,8 @@ import os
 url_list = {
     '5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
     '5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/',
+    '2210':'https://papers.xtremepape.rs/CAIE/O%20Level/Computer%20Science%20(2210)/',
+    '4024':'https://papers.xtremepape.rs/CAIE/O%20Level/Mathematics%20D%20(4024)/',
 }
 online_url = 'https://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/'
 

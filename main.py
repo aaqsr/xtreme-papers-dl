@@ -9,8 +9,6 @@ from XTRME import *
 # import bs4.builder._lxml
 
 
-
-
 ''' handles input and outputs '''
 
 # get code
