@@ -33,4 +33,4 @@
 * *Replace the subject code system with something else?*
 * Add a way to pass a url instead of a subject code so user can pick which one they want
 * Add a better way to deal with urls (like adding and removing them)
-* Migrate to Cython
+* Migrate to Cython or something faster?
