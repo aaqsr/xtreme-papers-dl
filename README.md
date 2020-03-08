@@ -1,5 +1,21 @@
 # xtremepaper downloader
 
+## CHANGELOG
+
+NOTE: ON WINDOWS THE FOLDER PATH WILL NOT WORK, PLEASE EDIT IT ON LN 105 IN XTREME.py
+
+Old repo hadn't been updated for a few years. As such it was not working. 
+So I thought I'd fork it and fix it.
+As of now on my mac the download for papers works for O LEVEL papers. 
+Just be sure to add your own urls. (The get code system has not been tested but is left in for now until it can be verified to be working.)
+
+The first important priority for me was getting the core parts of this up and running.
+I don't have time as of now, but the second I do, I'll probably make many more changes and fixes.
+
+Original repo by CubeOvO.
+
+## OLD README
+
 my current python version : 3.5.2
 
 
