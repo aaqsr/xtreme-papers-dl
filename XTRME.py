@@ -5,12 +5,14 @@ import time
 import requests
 import urllib  
 import os
+# import bs4.builder._lxml
 
 ''' define global variables'''
 
 url_list = {
     
-    '5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/'
+    '5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
+    '5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/'
 	
  	# '9231':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics - Further (9231)/',
 	# '9608':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computer Science (9608)/',
@@ -57,16 +59,6 @@ def down_paper(href,folder_p):
 			return -1
 
 
-
-
-
-
-
-
-
-
-
-
 def get_code():
 
 	''' get the syllabus code for every subject on xtremepaper'''
@@ -94,8 +86,8 @@ def get_code():
 		print('NetWork error')
 		return -1
 
-def get_papers(url):
-
+def get_papers(url_key):
+	url = url_list[url_key]
 	'''download all the files at the url provided'''
 	new_hrefs = []
 	# obatin url
@@ -110,7 +102,7 @@ def get_papers(url):
 	print('Now starts to download, this may (definitely) take some time so you may want to let this program run alone.')
 	
 	#create folder
-	folder_path = '.\\'+url.split('/')[-2]+'\\'
+	folder_path = url.split('/')[-2]+'/'
 	if os.path.isdir(folder_path):
 			print('folder {} already exists'.format(folder_path))
 			pass
@@ -119,7 +111,7 @@ def get_papers(url):
 		os.mkdir(folder_path)
 
 	for href in hrefs:
-		href = 'http://papers.xtremepapers.com/'+href.get('href').strip('/.')
+		href = url_list[url_key]+href.get('href').strip('/.')
 		new_hrefs.append(href)
 	# print(new_hrefs)
 	
