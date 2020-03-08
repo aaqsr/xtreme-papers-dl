@@ -8,6 +8,8 @@
 * Get permission from CubeOvO to implement a license
 
 ## TESTING
+* Test the github workflow thing 
+* Test if requirements.txt works
 * Test with A level papers
 * Test the get code system
 * Test the entire program with unexpected values
