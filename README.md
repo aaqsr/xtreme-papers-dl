@@ -36,7 +36,8 @@ Note: If you get an error concerning the lxml parser, uninstall then reinstall l
 ### input:
 * input syllabus code (recommend) - currently support ~~following~~ all syllabus code
 * local syllabus code - local stored syllabus code are as follow
-`'9231':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics - Further (9231)/',
+
+```'9231':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics - Further (9231)/',
 	'9608':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computer Science (9608)/',
 	'9691':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computing (9691)/',
 	'9698':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Psychology (9698)/',
@@ -47,7 +48,9 @@ Note: If you get an error concerning the lxml parser, uninstall then reinstall l
 	'9707':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Business Studies (9707)/',
 	'9708':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Economics (9708)/',
 	'9709':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics (9709)/'
-}`
+}
+```
+
 * *new feature* - get other syllabus code online
 * input url - please input similar url at above, where the links in the webpages links directly to pdfs you want to download but not the subject(s) o.w. this programe won't work (although it'll acts like it worked)
 
