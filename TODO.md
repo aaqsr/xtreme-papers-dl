@@ -8,7 +8,6 @@
 * Get permission from CubeOvO to implement a license
 
 ## TESTING
-* Test the github workflow thing 
 * Test if requirements.txt works
 * Test with A level papers
 * Test the get code system
@@ -17,6 +16,7 @@
 * Test on Linux system extensively 
 
 ## FIX EXISTING FEATURES
+* Fix the github workflow
 * Make the console output better especially at the end where it should instead give the number of failed and successful rather than an array of the state of each, and should print the ones that failed
 * Add more URLs built-in
 * See what online_url is doing and fix it
