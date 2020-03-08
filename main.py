@@ -6,6 +6,7 @@ import requests
 import urllib  
 import os
 from XTRME import *
+# import bs4.builder._lxml
 
 
 
@@ -19,7 +20,7 @@ url_key = input()
 # local code
 if url_key in url_list:
 	print('detected syllabus code, processing...')
-	get_papers(url_list[url_key])
+	get_papers(url_key)
 
 # online code
 elif url_key.isdigit():
