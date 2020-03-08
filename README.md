@@ -1,8 +1,8 @@
 # xtremepaper downloader
 
-## CHANGELOG
+## NOTE: AS OF NOW, ON WINDOWS THE FOLDER PATH WILL NOT WORK, PLEASE EDIT THE `folder_path` VARIABLE IN XTREME.py
 
-NOTE: ON WINDOWS THE FOLDER PATH WILL NOT WORK, PLEASE EDIT IT ON LN 105 IN XTREME.py
+## CHANGELOG
 
 Old repo hadn't been updated for a few years. As such it was not working. 
 So I thought I'd fork it and fix it.
@@ -37,19 +37,10 @@ Note: If you get an error concerning the lxml parser, uninstall then reinstall l
 * input syllabus code (recommend) - currently support ~~following~~ all syllabus code
 * local syllabus code - local stored syllabus code are as follow
 
-```'9231':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics - Further (9231)/',
-	'9608':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computer Science (9608)/',
-	'9691':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computing (9691)/',
-	'9698':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Psychology (9698)/',
-	'9700':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Biology (9700)/',
-	'9701':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Chemistry (9701)/',
-	'9702':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Physics (9702)/',
-	'9706':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Accounting (9706)/',
-	'9707':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Business Studies (9707)/',
-	'9708':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Economics (9708)/',
-	'9709':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics (9709)/'
-}
+```	'5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
+    	'5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/'
 ```
+More can easily be added in XTREME.py by adding them to `url_list`
 
 * *new feature* - get other syllabus code online
 * input url - please input similar url at above, where the links in the webpages links directly to pdfs you want to download but not the subject(s) o.w. this programe won't work (although it'll acts like it worked)
