@@ -28,7 +28,9 @@ my current python version : 3.5.2
 * BeautifulSoup
 * requests
 * urllib
-* ~~cs50 (but only a get_string() at l:79)~
+* lxml
+
+Note: If you get an error concerning the lxml parser, uninstall then reinstall lxml via pip.
   
 ### input:
 * input syllabus code (recommend) - currently support ~~following~~ all syllabus code
