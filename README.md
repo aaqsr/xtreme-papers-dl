@@ -12,7 +12,7 @@ Just be sure to add your own urls. (The get code system has not been tested but 
 The first important priority for me was getting the core parts of this up and running.
 I don't have time as of now, but the second I do, I'll probably make many more changes and fixes.
 
-Original repo by CubeOvO.
+Original repo by CubeOvO. Mirrored with permission :)
 
 ## OLD README
 
