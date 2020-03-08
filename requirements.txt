@@ -1,0 +1,5 @@
+bs4
+functools
+requests
+urllib
+lxml
