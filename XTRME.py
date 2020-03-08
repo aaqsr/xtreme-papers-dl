@@ -10,21 +10,8 @@ import os
 ''' define global variables'''
 
 url_list = {
-    
     '5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
-    '5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/'
-	
- 	# '9231':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics - Further (9231)/',
-	# '9608':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computer Science (9608)/',
-	# '9691':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Computing (9691)/',
-	# '9698':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Psychology (9698)/',
-	# '9700':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Biology (9700)/',
-	# '9701':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Chemistry (9701)/',
-	# '9702':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Physics (9702)/',
-	# '9706':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Accounting (9706)/',
-	# '9707':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Business Studies (9707)/',
-	# '9708':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Economics (9708)/',
-	# '9709':'http://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/Mathematics (9709)/'
+    '5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/',
 }
 online_url = 'https://papers.xtremepapers.com/CIE/Cambridge International A and AS Level/'
 
