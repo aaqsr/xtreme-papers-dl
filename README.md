@@ -35,9 +35,10 @@ Note: If you get an error concerning the lxml parser, uninstall then reinstall l
   
 ### input:
 * input syllabus code (recommend) - currently support ~~following~~ all syllabus code
-* local syllabus code - local stored syllabus code are as follow
+* local syllabus code - local stored syllabus code are as follows
 
-```	'5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
+```
+	'5070':'https://papers.xtremepape.rs/CAIE/O%20Level/Chemistry%20(5070)/',
     	'5040':'https://papers.xtremepape.rs/CAIE/O%20Level/Physics%20(5054)/'
 ```
 More can easily be added in XTREME.py by adding them to `url_list`
