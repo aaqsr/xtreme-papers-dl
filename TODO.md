@@ -30,6 +30,7 @@
 * Make way to stop the program in general if user wishes to abort
 
 ### AMBITIOUS
+* Add ability to run from command line via args (check https://github.com/carykh/jumpcutter/blob/master/jumpcutter.py)
 * Add an option to automatically compress the folder and put it on Google drive
 * Replace the subject code system with something else?*
 * Add a way to pass a url instead of a subject code so user can pick which one they want
